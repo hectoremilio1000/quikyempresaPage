@@ -1,11 +1,11 @@
-import React from 'react';
-import { Button } from 'antd';
-import { DownOutlined } from '@ant-design/icons';
-import QueueAnim from 'rc-queue-anim';
-import TweenOne, { TweenOneGroup } from 'rc-tween-one';
-import BannerAnim, { Element } from 'rc-banner-anim';
-import { isImg } from './utils';
-import 'rc-banner-anim/assets/index.css';
+import React from "react";
+import { Button } from "antd";
+import { DownOutlined } from "@ant-design/icons";
+import QueueAnim from "rc-queue-anim";
+import TweenOne, { TweenOneGroup } from "rc-tween-one";
+import BannerAnim, { Element } from "rc-banner-anim";
+import { isImg } from "./utils";
+import "rc-banner-anim/assets/index.css";
 
 const { BgElement } = Element;
 class Banner extends React.PureComponent {
@@ -23,20 +23,20 @@ class Banner extends React.PureComponent {
         <Element key={i.toString()} {...elem} prefixCls={elemClassName}>
           <BgElement key="bg" {...bg} />
           <QueueAnim
-            type={['bottom', 'top']}
+            type={["bottom", "top"]}
             delay={200}
             key="text"
             {...textWrapper}
           >
-            <div key="logo" {...title}>
-              {typeof title.children === 'string' &&
+            <div key="logo" {...title} style={{ paddingBottom: 10 }}>
+              {typeof title.children === "string" &&
               title.children.match(isImg) ? (
                 <img src={title.children} width="100%" alt="img" />
               ) : (
                 title.children
               )}
             </div>
-            <div key="content" {...content}>
+            <div key="content" {...content} style={{ paddingTop: 5 }}>
               {content.children}
             </div>
             <Button ghost key="button" {...button}>
@@ -50,7 +50,7 @@ class Banner extends React.PureComponent {
       <div {...props} {...dataSource.wrapper}>
         <TweenOneGroup
           key="bannerGroup"
-          enter={{ opacity: 0, type: 'from' }}
+          enter={{ opacity: 0, type: "from" }}
           leave={{ opacity: 0 }}
           component=""
         >
@@ -62,7 +62,7 @@ class Banner extends React.PureComponent {
         </TweenOneGroup>
         <TweenOne
           animation={{
-            y: '-=20',
+            y: "-=20",
             yoyo: true,
             repeat: -1,
             duration: 1000,

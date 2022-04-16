@@ -1,15 +1,15 @@
 /* eslint no-undef: 0 */
 /* eslint arrow-parens: 0 */
-import React from 'react';
-import { enquireScreen } from 'enquire-js';
+import React from "react";
+import { enquireScreen } from "enquire-js";
 
-import Nav3 from './Nav3';
-import Banner1 from './Banner1';
-import Content0 from './Content0';
-import Content5 from './Content5';
-import Content3 from './Content3';
-import Feature5 from './Feature5';
-import Footer1 from './Footer1';
+import Nav3 from "./Nav3";
+import Banner1 from "./Banner1";
+import Content0 from "./Content0";
+import Content5 from "./Content5";
+import Content3 from "./Content3";
+import Feature5 from "./Feature5";
+import Footer1 from "./Footer1";
 
 import {
   Nav30DataSource,
@@ -19,11 +19,11 @@ import {
   Content30DataSource,
   Feature50DataSource,
   Footer10DataSource,
-} from './data.source';
-import './less/antMotionStyle.less';
+} from "./data.source";
+import "./less/antMotionStyle.less";
 
 let isMobile;
-enquireScreen((b) => {
+enquireScreen(b => {
   isMobile = b;
 });
 
@@ -40,7 +40,7 @@ export default class Home extends React.Component {
 
   componentDidMount() {
     // 适配手机屏幕;
-    enquireScreen((b) => {
+    enquireScreen(b => {
       this.setState({ isMobile: !!b });
     });
     // dva 2.0 样式在组件渲染之后动态加载，导致滚动组件不生效；线上不影响；
@@ -70,41 +70,41 @@ export default class Home extends React.Component {
         dataSource={Banner10DataSource}
         isMobile={this.state.isMobile}
       />,
-      <Content0
-        id="Content0_0"
-        key="Content0_0"
-        dataSource={Content00DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Content5
-        id="Content5_0"
-        key="Content5_0"
-        dataSource={Content50DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Content3
-        id="Content3_0"
-        key="Content3_0"
-        dataSource={Content30DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Feature5
-        id="Feature5_0"
-        key="Feature5_0"
-        dataSource={Feature50DataSource}
-        isMobile={this.state.isMobile}
-      />,
-      <Footer1
-        id="Footer1_0"
-        key="Footer1_0"
-        dataSource={Footer10DataSource}
-        isMobile={this.state.isMobile}
-      />,
+      // <Content0
+      //   id="Content0_0"
+      //   key="Content0_0"
+      //   dataSource={Content00DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
+      // // <Content5
+      // //   id="Content5_0"
+      // //   key="Content5_0"
+      // //   dataSource={Content50DataSource}
+      // //   isMobile={this.state.isMobile}
+      // // />,
+      // // <Content3
+      // //   id="Content3_0"
+      // //   key="Content3_0"
+      // //   dataSource={Content30DataSource}
+      // //   isMobile={this.state.isMobile}
+      // // />,
+      // // <Feature5
+      // //   id="Feature5_0"
+      // //   key="Feature5_0"
+      // //   dataSource={Feature50DataSource}
+      // //   isMobile={this.state.isMobile}
+      // // />,
+      // <Footer1
+      //   id="Footer1_0"
+      //   key="Footer1_0"
+      //   dataSource={Footer10DataSource}
+      //   isMobile={this.state.isMobile}
+      // />,
     ];
     return (
       <div
         className="templates-wrapper"
-        ref={(d) => {
+        ref={d => {
           this.dom = d;
         }}
       >
