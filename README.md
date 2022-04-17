@@ -5,3 +5,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 # antdStarterTemplate
+
+# empiezo
+
+para empezar tenemos que hacer yarn start

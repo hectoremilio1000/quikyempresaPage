@@ -5,28 +5,28 @@ export const Nav30DataSource = {
   logo: {
     className: "header3-logo",
     children:
-      "https://imagenesrutalab.s3.amazonaws.com/syneptica/synepticalogo.png",
+      "https://imagenesrutalab.s3.amazonaws.com/quikyempresa/logoQuikyempresa3.png",
   },
   Menu: {
     className: "header3-menu",
     children: [
-      // {
-      //   name: "item0",
-      //   className: "header3-item",
-      //   children: {
-      //     href: "#",
-      //     children: [
-      //       {
-      //         children: (
-      //           <span>
-      //             <p>网站首页</p>
-      //           </span>
-      //         ),
-      //         name: "text",
-      //       },
-      //     ],
-      //   },
-      // },
+      {
+        name: "item0",
+        className: "header3-item",
+        children: {
+          href: "#",
+          children: [
+            {
+              children: (
+                <span>
+                  <p>Cotiza</p>
+                </span>
+              ),
+              name: "Cotiza",
+            },
+          ],
+        },
+      },
       // {
       //   name: "item1",
       //   className: "header3-item",
@@ -161,14 +161,13 @@ export const Banner10DataSource = {
         title: {
           className: "banner1-title",
           children:
-            "https://imagenesrutalab.s3.amazonaws.com/syneptica/SYNEPTICAblanconombre.png",
+            "https://imagenesrutalab.s3.amazonaws.com/quikyempresa/logoQuikyempresablanco.png",
         },
         content: {
           className: "banner1-content",
-          children:
-            "Economía y Revolución Tecnológica para interpretaciones simples de una realidad confusa",
+          children: "Lleva tus ideas a una APP",
         },
-        button: { className: "banner1-button", children: "Muy pronto" },
+        button: { className: "banner1-button", children: "Cotiza" },
       },
       {
         name: "elem1",
@@ -178,14 +177,13 @@ export const Banner10DataSource = {
         title: {
           className: "banner1-title",
           children:
-            "https://imagenesrutalab.s3.amazonaws.com/syneptica/SYNEPTICAblanconombre.png",
+            "https://imagenesrutalab.s3.amazonaws.com/quikyempresa/logoQuikyempresablanco.png",
         },
         content: {
           className: "banner1-content",
-          children:
-            "Economía y Revolución Tecnológica para interpretaciones simples de una realidad confusa",
+          children: "Confianza, seguridad y compromiso",
         },
-        button: { className: "banner1-button", children: "Muy pronto" },
+        button: { className: "banner1-button", children: "Cotiza" },
       },
       {
         name: "elem2",
@@ -195,14 +193,14 @@ export const Banner10DataSource = {
         title: {
           className: "banner1-title",
           children:
-            "https://imagenesrutalab.s3.amazonaws.com/syneptica/SYNEPTICAblanconombre.png",
+            "https://imagenesrutalab.s3.amazonaws.com/quikyempresa/logoQuikyempresablanco.png",
         },
         content: {
           className: "banner1-content",
           children:
             "Economía y Revolución Tecnológica para interpretaciones simples de una realidad confusa",
         },
-        button: { className: "banner1-button", children: "Muy pronto" },
+        button: { className: "banner1-button", children: "Cotiza" },
       },
     ],
   },
