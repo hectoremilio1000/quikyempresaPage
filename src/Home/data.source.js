@@ -197,8 +197,7 @@ export const Banner10DataSource = {
         },
         content: {
           className: "banner1-content",
-          children:
-            "Economía y Revolución Tecnológica para interpretaciones simples de una realidad confusa",
+          children: "Obtén un presupuesto rápido y sencillo",
         },
         button: { className: "banner1-button", children: "Cotiza" },
       },
@@ -216,7 +215,7 @@ export const Content00DataSource = {
         name: "title",
         children: (
           <span>
-            <p>回收项目</p>
+            <p>¿Cómo digitalizamos tus ideas en una App?</p>
           </span>
         ),
       },
@@ -246,7 +245,7 @@ export const Content00DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>电梯回收</p>
+                      <p>{""}</p>
                     </span>
                   </span>
                 </span>
@@ -256,7 +255,7 @@ export const Content00DataSource = {
               name: "content",
               children: (
                 <span>
-                  <p>Elevator recovery</p>
+                  <p>Realizamos una primera propuesta con alcances</p>
                 </span>
               ),
             },
@@ -282,7 +281,7 @@ export const Content00DataSource = {
               className: "content0-block-title",
               children: (
                 <span>
-                  <p>铁铝铜回收</p>
+                  <p>{""}</p>
                 </span>
               ),
             },
@@ -292,7 +291,7 @@ export const Content00DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>Iron copper recovery</p>
+                      <p>Definimos objetivos a alcanzar</p>
                     </span>
                   </span>
                 </span>
@@ -320,7 +319,7 @@ export const Content00DataSource = {
               className: "content0-block-title",
               children: (
                 <span>
-                  <p>不锈钢回收</p>
+                  <p>{""}</p>
                 </span>
               ),
             },
@@ -328,85 +327,85 @@ export const Content00DataSource = {
               name: "content",
               children: (
                 <span>
-                  <p>Stainless steel recovery</p>
+                  <p>Desarrollo, Lanzamiento y Acompañamiento</p>
                 </span>
               ),
             },
           ],
         },
       },
-      {
-        name: "block3",
-        className: "content0-block",
-        md: 8,
-        xs: 24,
-        children: {
-          className: "content0-block-item",
-          children: [
-            {
-              name: "image",
-              className: "content0-block-icon",
-              children:
-                "https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png",
-            },
-            {
-              name: "title",
-              className: "content0-block-title",
-              children: (
-                <span>
-                  <span>
-                    <p>工程拆除</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: "content",
-              children: (
-                <span>
-                  <p>Engineering dismantling</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: "block4",
-        className: "content0-block",
-        md: 8,
-        xs: 24,
-        children: {
-          className: "content0-block-item",
-          children: [
-            {
-              name: "image",
-              className: "content0-block-icon",
-              children:
-                "https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png",
-            },
-            {
-              name: "title",
-              className: "content0-block-title",
-              children: (
-                <span>
-                  <span>
-                    <p>中央空调回收</p>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: "content",
-              children: (
-                <span>
-                  <p>Air conditioning recovery</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
+      // {
+      //   name: "block3",
+      //   className: "content0-block",
+      //   md: 8,
+      //   xs: 24,
+      //   children: {
+      //     className: "content0-block-item",
+      //     children: [
+      //       {
+      //         name: "image",
+      //         className: "content0-block-icon",
+      //         children:
+      //           "https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png",
+      //       },
+      //       {
+      //         name: "title",
+      //         className: "content0-block-title",
+      //         children: (
+      //           <span>
+      //             <span>
+      //               <p>工程拆除</p>
+      //             </span>
+      //           </span>
+      //         ),
+      //       },
+      //       {
+      //         name: "content",
+      //         children: (
+      //           <span>
+      //             <p>Engineering dismantling</p>
+      //           </span>
+      //         ),
+      //       },
+      //     ],
+      //   },
+      // },
+      // {
+      //   name: "block4",
+      //   className: "content0-block",
+      //   md: 8,
+      //   xs: 24,
+      //   children: {
+      //     className: "content0-block-item",
+      //     children: [
+      //       {
+      //         name: "image",
+      //         className: "content0-block-icon",
+      //         children:
+      //           "https://zos.alipayobjects.com/rmsportal/EkXWVvAaFJKCzhMmQYiX.png",
+      //       },
+      //       {
+      //         name: "title",
+      //         className: "content0-block-title",
+      //         children: (
+      //           <span>
+      //             <span>
+      //               <p>中央空调回收</p>
+      //             </span>
+      //           </span>
+      //         ),
+      //       },
+      //       {
+      //         name: "content",
+      //         children: (
+      //           <span>
+      //             <p>Air conditioning recovery</p>
+      //           </span>
+      //         ),
+      //       },
+      //     ],
+      //   },
+      // },
     ],
   },
 };
@@ -421,7 +420,7 @@ export const Content50DataSource = {
         name: "title",
         children: (
           <span>
-            <p>成功案例</p>
+            <p>¿Cuáles son nuestros servicios?</p>
           </span>
         ),
         className: "title-h1",
@@ -441,9 +440,23 @@ export const Content50DataSource = {
           wrapper: { className: "content5-block-content" },
           img: {
             children:
-              "https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg",
+              "http://www.parzlogic.com/wp-content/uploads/2017/10/web-dev.jpg",
           },
-          content: { children: "Ant Design" },
+          content: {
+            children: (
+              <span className="titleServicios">
+                Desarrollo de aplicaciones Web
+              </span>
+            ),
+            children1: (
+              <span className="h5Servicios">
+                Con nuevos frameworks y librerías Sketch, Angular, Bootstrap,
+                Webflow, React, React native, Flutter etc. desarrollamos de
+                manera muy rápida, a bajos precios y con gran calidad páginas
+                web responsive para diferentes tipos de industria
+              </span>
+            ),
+          },
         },
       },
       {
@@ -455,9 +468,26 @@ export const Content50DataSource = {
           wrapper: { className: "content5-block-content" },
           img: {
             children:
-              "https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg",
+              "https://miro.medium.com/max/1400/1*_9b6Zt10K0cBB5vJNAhA7A.jpeg",
           },
-          content: { children: "Ant Motion" },
+          content: {
+            children: (
+              <span className="titleServicios">
+                Desarrollo de aplicaciones Móviles
+              </span>
+            ),
+            children1: (
+              <span className="h5Servicios">
+                A medida que los teléfonos inteligentes se convierten cada vez
+                más en la plataforma central para una experiencia digital más
+                amplia, los líderes empresariales aportan ideas únicas para
+                crear aplicaciones móviles atractivas para los clientes. Pero
+                para crear una aplicación de alto rendimiento, fácil de usar y
+                rentable, es necesario seguir un enfoque estratégico. No te
+                preocupes aquí te ayudamos.
+              </span>
+            ),
+          },
         },
       },
       {
@@ -469,9 +499,24 @@ export const Content50DataSource = {
           wrapper: { className: "content5-block-content" },
           img: {
             children:
-              "https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg",
+              "https://nothingad.com/wp-content/uploads/2019/04/Que-es-el-posicionamiento-SEO-en-marketing-digital.jpg",
           },
-          content: { children: "Ant Design" },
+          content: {
+            children: (
+              <span className="titleServicios">
+                Marketing digital avanzado y técnicas de SEO
+              </span>
+            ),
+            children1: (
+              <span className="h5Servicios">
+                Nuestro equipo utiliza herramientas estadísticas bayesianas para
+                definir estrategias de marketing que apunten directamente al
+                mercado objetivo. Además, implementando google analytics,
+                pixels, así como funnels de facebook, sabemos exactamente que
+                hacen los usuarios.
+              </span>
+            ),
+          },
         },
       },
       {
@@ -483,67 +528,81 @@ export const Content50DataSource = {
           wrapper: { className: "content5-block-content" },
           img: {
             children:
-              "https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg",
+              "https://www.web-media.com.ar/uploads/imagenes/blog/lightbox_dise%C3%B1ador-ux-ui-cordoba.jpg",
           },
-          content: { children: "Ant Motion" },
+          content: {
+            children: (
+              <span className="titleServicios">
+                User Experience UX y User Interface UI
+              </span>
+            ),
+            children1: (
+              <span className="h5Servicios">
+                Pensamos en entornos tecnológicos aplicativos que generen alto
+                valor para el usuario, pues es importante no sólo que se vea
+                bien, sino que sean funcionales, vendan y que generen una gran
+                experiencia al usuario.
+              </span>
+            ),
+          },
         },
       },
-      {
-        name: "block4",
-        className: "block",
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: "content5-block-content" },
-          img: {
-            children:
-              "https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg",
-          },
-          content: { children: "Ant Design" },
-        },
-      },
-      {
-        name: "block5",
-        className: "block",
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: "content5-block-content" },
-          img: {
-            children:
-              "https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg",
-          },
-          content: { children: "Ant Motion" },
-        },
-      },
-      {
-        name: "block6",
-        className: "block",
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: "content5-block-content" },
-          img: {
-            children:
-              "https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg",
-          },
-          content: { children: "Ant Design" },
-        },
-      },
-      {
-        name: "block7",
-        className: "block",
-        md: 6,
-        xs: 24,
-        children: {
-          wrapper: { className: "content5-block-content" },
-          img: {
-            children:
-              "https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg",
-          },
-          content: { children: "Ant Motion" },
-        },
-      },
+      // {
+      //   name: "block4",
+      //   className: "block",
+      //   md: 6,
+      //   xs: 24,
+      //   children: {
+      //     wrapper: { className: "content5-block-content" },
+      //     img: {
+      //       children:
+      //         "https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg",
+      //     },
+      //     content: { children: "Ant Design" },
+      //   },
+      // },
+      // {
+      //   name: "block5",
+      //   className: "block",
+      //   md: 6,
+      //   xs: 24,
+      //   children: {
+      //     wrapper: { className: "content5-block-content" },
+      //     img: {
+      //       children:
+      //         "https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg",
+      //     },
+      //     content: { children: "Ant Motion" },
+      //   },
+      // },
+      // {
+      //   name: "block6",
+      //   className: "block",
+      //   md: 6,
+      //   xs: 24,
+      //   children: {
+      //     wrapper: { className: "content5-block-content" },
+      //     img: {
+      //       children:
+      //         "https://t.alipayobjects.com/images/rmsweb/T11aVgXc4eXXXXXXXX.svg",
+      //     },
+      //     content: { children: "Ant Design" },
+      //   },
+      // },
+      // {
+      //   name: "block7",
+      //   className: "block",
+      //   md: 6,
+      //   xs: 24,
+      //   children: {
+      //     wrapper: { className: "content5-block-content" },
+      //     img: {
+      //       children:
+      //         "https://zos.alipayobjects.com/rmsportal/faKjZtrmIbwJvVR.svg",
+      //     },
+      //     content: { children: "Ant Motion" },
+      //   },
+      // },
     ],
   },
 };
@@ -558,7 +617,7 @@ export const Content30DataSource = {
         name: "title",
         children: (
           <span>
-            <p>公司简介</p>
+            <p>Por qué escogernos</p>
           </span>
         ),
         className: "title-h1",
@@ -570,7 +629,7 @@ export const Content30DataSource = {
           <span>
             <span>
               <span>
-                <h2>苏州子浩物资回收有限公司</h2>
+                <h2>Calidad y servicio</h2>
               </span>
             </span>
           </span>
@@ -599,7 +658,7 @@ export const Content30DataSource = {
               <span>
                 <span>
                   <span>
-                    <p>回收项目</p>
+                    <p>Precios accesibles</p>
                   </span>
                 </span>
               </span>
@@ -610,7 +669,8 @@ export const Content30DataSource = {
             children: (
               <span>
                 <p>
-                  电梯回收，中央空调回收，废旧物资回收，机械设备回收，厨房、宾馆设备等。
+                  Te proponemos un stack tecnológico que se ajuste a tu
+                  presupuesto.
                 </p>
               </span>
             ),
@@ -633,7 +693,7 @@ export const Content30DataSource = {
             className: "content3-title",
             children: (
               <span>
-                <p>企业精神</p>
+                <p>Pensamos en tus ventas</p>
               </span>
             ),
           },
@@ -641,7 +701,10 @@ export const Content30DataSource = {
             className: "content3-content",
             children: (
               <span>
-                <p>开拓进取、锐意创新、刻意求真、崇尚完美。</p>
+                <p>
+                  El diseño está pensando en atraer a clientes, no sólo en verse
+                  bien.
+                </p>
               </span>
             ),
           },
@@ -663,7 +726,7 @@ export const Content30DataSource = {
             className: "content3-title",
             children: (
               <span>
-                <p>服务宗旨</p>
+                <p>Detalles</p>
               </span>
             ),
           },
@@ -671,7 +734,10 @@ export const Content30DataSource = {
             className: "content3-content",
             children: (
               <span>
-                <p>价格合理、信守承诺、安全快捷 、高效。</p>
+                <p>
+                  Cuidamos cada detalle en todas las etapas: diseño, desarrollo,
+                  lanzamiento y acompañamiento.
+                </p>
               </span>
             ),
           },
@@ -694,7 +760,7 @@ export const Content30DataSource = {
             children: (
               <span>
                 <span>
-                  <p>企业原则</p>
+                  <p>Testing</p>
                 </span>
               </span>
             ),
@@ -704,8 +770,8 @@ export const Content30DataSource = {
             children: (
               <span>
                 <p>
-                  讲诚信、以信誉求发展。
-                  议、指导。前进中的望月将会在不断变化的各种客观条件下，把握市场动向，熟悉市场环境，完善的饰后服务，让客户真正感受到望月，热情、真诚、诚信的全方位服务。
+                  Aquí hacemos todas las pruebas que se requieran para que te
+                  sientas complacido con lo que pagaste.
                 </p>
               </span>
             ),
@@ -726,7 +792,7 @@ export const Feature50DataSource = {
         name: "title",
         children: (
           <span>
-            <p>新闻资讯</p>
+            <p>Algunos productos desarrollados</p>
           </span>
         ),
         className: "title-h1",
@@ -743,7 +809,7 @@ export const Feature50DataSource = {
           text: {
             children: (
               <span>
-                <p>公司新闻</p>
+                <p>Itam</p>
               </span>
             ),
             className: "content7-tag-name",
@@ -758,25 +824,29 @@ export const Feature50DataSource = {
             xs: 24,
             children: (
               <span>
-                <h3>技术</h3>
+                <h3>Diseño</h3>
                 <p>
-                  丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
+                  Entender las necesidades del cliente para que el diseño cumpla
+                  con los estándares más altos de UX y UI
                 </p>
                 <br />
-                <h3>融合</h3>
-                <p>
-                  解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
-                </p>
+                <h3>Front End & Back End</h3>
+                <p>Proponer desarrollo acorde al presupuesto</p>
                 <br />
-                <h3>开放</h3>
-                符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
+                <h3>Conoce nuestro trabajo</h3>
+                <a
+                  target="_blank"
+                  href="https://relacionesinternacionales.itam.mx/es"
+                >
+                  https://relacionesinternacionales.itam.mx/
+                </a>
               </span>
             ),
           },
           img: {
             className: "content7-img",
             children:
-              "https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png",
+              "https://imagenesrutalab.s3.amazonaws.com/quikyempresa/imageApp/itamApp2.png",
             md: 10,
             xs: 24,
           },
@@ -791,7 +861,7 @@ export const Feature50DataSource = {
             className: "content7-tag-name",
             children: (
               <span>
-                <p>行业新闻</p>
+                <p>Spendee</p>
               </span>
             ),
           },
@@ -804,18 +874,22 @@ export const Feature50DataSource = {
             xs: 24,
             children: (
               <span>
-                <h3>技术</h3>
+                <h3>FIGMA, SKETCH</h3>
                 <p>
-                  丰富的技术组件，简单组装即可快速搭建金融级应用，丰富的技术组件，简单组装即可快速搭建金融级应用。
+                  Realizamos tu diseño en tecnologías para que tengas claro qué
+                  vas a recibir.
                 </p>
                 <br />
-                <h3>融合</h3>
+                <h3>Tecnologías de Punta</h3>
                 <p>
-                  解放业务及技术生产力，推动金融服务底层创新，推动金融服务底层创新。解放业务及技术生产力，推动金融服务底层创新。
+                  Utlizamos las últimas tendencias en stacks de tecnología como
+                  MERN o JAM.
                 </p>
                 <br />
-                <h3>开放</h3>
-                符合金融及要求的安全可靠、高可用、高性能的服务能力，符合金融及要求的安全可靠、高可用、高性能的服务能力。
+                <h3>Conoce nuestro trabajo</h3>
+                <a target="_blank" href="https://www.spendee.com/">
+                  https://www.spendee.com/
+                </a>
               </span>
             ),
           },
@@ -824,7 +898,7 @@ export const Feature50DataSource = {
             md: 10,
             xs: 24,
             children:
-              "https://zos.alipayobjects.com/rmsportal/xBrUaDROgtFBRRL.png",
+              "https://www.spendee.com/build/images/visual-mobil@2.51eeb89e.jpg",
           },
         },
       },
@@ -846,14 +920,14 @@ export const Footer10DataSource = {
         title: {
           className: "logo",
           children:
-            "https://zos.alipayobjects.com/rmsportal/qqaimmXZVSwAhpL.svg",
+            "https://imagenesrutalab.s3.amazonaws.com/quikyempresa/logoQuikyempresa3.png",
         },
         childWrapper: {
           className: "slogan",
           children: [
             {
               name: "content0",
-              children: "Animation specification and components of Ant Design.",
+              children: "Digitalizamos tus ideas en una APP",
             },
           ],
         },
@@ -866,7 +940,7 @@ export const Footer10DataSource = {
         title: {
           children: (
             <span>
-              <p>回收项目</p>
+              <p>Menú</p>
             </span>
           ),
         },
@@ -879,7 +953,7 @@ export const Footer10DataSource = {
                 <span>
                   <span>
                     <span>
-                      <p>电梯回收</p>
+                      <p>Conócenos</p>
                     </span>
                   </span>
                 </span>
@@ -890,7 +964,7 @@ export const Footer10DataSource = {
               href: "#",
               children: (
                 <span>
-                  <p>铁铝铜回收</p>
+                  <p>¿Cómo lo hacemos?</p>
                 </span>
               ),
             },
@@ -899,7 +973,7 @@ export const Footer10DataSource = {
               href: "#",
               children: (
                 <span>
-                  <p>不锈钢回收</p>
+                  <p>Contacto</p>
                 </span>
               ),
             },
@@ -908,7 +982,7 @@ export const Footer10DataSource = {
               href: "#",
               children: (
                 <span>
-                  <p>工程拆除</p>
+                  <p>{""}</p>
                 </span>
               ),
             },
@@ -917,7 +991,7 @@ export const Footer10DataSource = {
               href: "#",
               children: (
                 <span>
-                  <p>中央空调回收</p>
+                  <p>{""}</p>
                 </span>
               ),
             },
@@ -929,11 +1003,11 @@ export const Footer10DataSource = {
         xs: 24,
         md: 6,
         className: "block",
-        title: { children: "关于" },
+        title: { children: "Cotiza" },
         childWrapper: {
           children: [
-            { href: "#", name: "link0", children: "FAQ" },
-            { href: "#", name: "link1", children: "联系我们" },
+            { href: "#", name: "link0", children: "Cotizadora" },
+            { href: "#", name: "link1", children: "" },
           ],
         },
       },
@@ -946,7 +1020,7 @@ export const Footer10DataSource = {
           children: (
             <span>
               <span>
-                <p>关注我们</p>
+                <p>Galardones</p>
               </span>
             </span>
           ),
@@ -955,10 +1029,10 @@ export const Footer10DataSource = {
         childWrapper: {
           children: [
             {
-              name: "image~k9h7il8htc6",
-              className: "k9h7irl6jgj-editor_css",
+              name: "Premios obtenidos",
+              className: "k9h7irl6jgj-editor_css imagenPremio",
               children:
-                "https://zos.alipayobjects.com/rmsportal/HzvPfCGNCtvGrdk.png",
+                "https://premioentrepreneur.com/assets/images/logo-hrzt-premio.png",
             },
           ],
         },
@@ -969,11 +1043,6 @@ export const Footer10DataSource = {
   copyrightPage: { className: "home-page" },
   copyright: {
     className: "copyright",
-    children: (
-      <span>
-        ©2018 by <a href="https://motion.ant.design">Ant Motion</a> All Rights
-        Reserved
-      </span>
-    ),
+    children: <span>©2018 Quiky empresa Derechos Reservados</span>,
   },
 };

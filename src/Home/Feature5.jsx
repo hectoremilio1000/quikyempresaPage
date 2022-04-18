@@ -1,9 +1,9 @@
-import React from 'react';
-import TweenOne from 'rc-tween-one';
-import OverPack from 'rc-scroll-anim/lib/ScrollOverPack';
-import { Tabs, Row, Col } from 'antd';
-import { Icon } from '@ant-design/compatible';
-import { getChildrenToRender } from './utils';
+import React from "react";
+import TweenOne from "rc-tween-one";
+import OverPack from "rc-scroll-anim/lib/ScrollOverPack";
+import { Tabs, Row, Col } from "antd";
+import { Icon } from "@ant-design/compatible";
+import { getChildrenToRender } from "./utils";
 
 const TabPane = Tabs.TabPane;
 
@@ -15,7 +15,7 @@ class Content7 extends React.Component {
     };
   }
 
-  onChange = (key) => {
+  onChange = key => {
     this.setState({ current: parseFloat(key) });
   };
 
@@ -42,8 +42,8 @@ class Content7 extends React.Component {
             y: 30,
             delay: 300,
             opacity: 0,
-            type: 'from',
-            ease: 'easeOutQuad',
+            type: "from",
+            ease: "easeOutQuad",
           }}
           leave={null}
           component=""
@@ -87,7 +87,7 @@ class Content7 extends React.Component {
                 y: 30,
                 opacity: 0,
                 delay: 200,
-                type: 'from',
+                type: "from",
               }}
               leave={{ y: 30, opacity: 0 }}
               {...dataSource.tabsWrapper}
