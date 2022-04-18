@@ -1,5 +1,5 @@
 {
-  "name": "landing-create-react-app-example",
+  "name": "quikyempresa",
   "version": "0.1.0",
   "private": true,
   "homepage": "./",
@@ -15,6 +15,7 @@
     "react": "^16.8.3",
     "react-bootstrap": "^1.6.1",
     "react-dom": "^16.8.3",
+    "react-floating-whatsapp-button": "^1.1.0",
     "react-router-dom": "5",
     "react-scripts": "2.1.5"
   },

@@ -14,7 +14,7 @@ export const Nav30DataSource = {
         name: "item0",
         className: "header3-item",
         children: {
-          href: "#",
+          href: "/cotiza",
           children: [
             {
               children: (
@@ -834,10 +834,7 @@ export const Feature50DataSource = {
                 <p>Proponer desarrollo acorde al presupuesto</p>
                 <br />
                 <h3>Conoce nuestro trabajo</h3>
-                <a
-                  target="_blank"
-                  href="https://relacionesinternacionales.itam.mx/es"
-                >
+                <a href="https://relacionesinternacionales.itam.mx/es">
                   https://relacionesinternacionales.itam.mx/
                 </a>
               </span>
@@ -887,9 +884,7 @@ export const Feature50DataSource = {
                 </p>
                 <br />
                 <h3>Conoce nuestro trabajo</h3>
-                <a target="_blank" href="https://www.spendee.com/">
-                  https://www.spendee.com/
-                </a>
+                <a href="https://www.spendee.com/">https://www.spendee.com/</a>
               </span>
             ),
           },
@@ -948,7 +943,7 @@ export const Footer10DataSource = {
           children: [
             {
               name: "link0",
-              href: "#",
+              href: "/conocenos",
               children: (
                 <span>
                   <span>
@@ -961,7 +956,7 @@ export const Footer10DataSource = {
             },
             {
               name: "link1",
-              href: "#",
+              href: "/hacemos",
               children: (
                 <span>
                   <p>¿Cómo lo hacemos?</p>
@@ -970,7 +965,7 @@ export const Footer10DataSource = {
             },
             {
               name: "link2",
-              href: "#",
+              href: "/contacto",
               children: (
                 <span>
                   <p>Contacto</p>
@@ -1006,7 +1001,7 @@ export const Footer10DataSource = {
         title: { children: "Cotiza" },
         childWrapper: {
           children: [
-            { href: "#", name: "link0", children: "Cotizadora" },
+            { href: "/cotiza", name: "link0", children: "Cotizadora" },
             { href: "#", name: "link1", children: "" },
           ],
         },
@@ -1043,6 +1038,13 @@ export const Footer10DataSource = {
   copyrightPage: { className: "home-page" },
   copyright: {
     className: "copyright",
-    children: <span>©2018 Quiky empresa Derechos Reservados</span>,
+    children: (
+      <span>
+        ©2018 Quiky empresa Derechos Reservados email:
+        <a href="mailto:administracion@quikyempresa.com?Subject=Quiero%20cotizar%20mi%20APP%20">
+          administracion@quikyempresa.com
+        </a>
+      </span>
+    ),
   },
 };

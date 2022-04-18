@@ -2,6 +2,8 @@
 /* eslint arrow-parens: 0 */
 import React from "react";
 import { enquireScreen } from "enquire-js";
+import { FloatingWhatsApp } from "react-floating-whatsapp-button";
+import "react-floating-whatsapp-button/dist/index.css";
 
 import Nav3 from "./Nav3";
 import Banner1 from "./Banner1";
@@ -22,6 +24,7 @@ import {
 } from "./data.source";
 import "./less/antMotionStyle.less";
 import CotizaBanner from "../CotizaBanner";
+import FormContact from "../FormContact";
 
 let isMobile;
 enquireScreen(b => {
@@ -89,19 +92,25 @@ export default class Home extends React.Component {
         dataSource={Content50DataSource}
         isMobile={this.state.isMobile}
       />,
-      <CotizaBanner />,
+      <CotizaBanner id="cotizaBanner" key="cotizaBanner_1" />,
       <Content3
         id="Content3_0"
         key="Content3_0"
         dataSource={Content30DataSource}
         isMobile={this.state.isMobile}
       />,
-
+      <FormContact id="FormContact0" key="FormContact0" />,
       <Footer1
         id="Footer1_0"
         key="Footer1_0"
         dataSource={Footer10DataSource}
         isMobile={this.state.isMobile}
+      />,
+      <FloatingWhatsApp
+        id="whatsApp_0"
+        key="whatsApp_0"
+        phone="+52 1 55 4924 2477"
+        popupMessage="Hola, ¿cómo podemos ayudarte?"
       />,
     ];
     return (
