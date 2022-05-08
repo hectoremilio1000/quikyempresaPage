@@ -10,23 +10,23 @@ export const Nav30DataSource = {
   Menu: {
     className: "header3-menu",
     children: [
-      {
-        name: "item0",
-        className: "header3-item",
-        children: {
-          href: "/cotiza",
-          children: [
-            {
-              children: (
-                <span>
-                  <p>Cotiza</p>
-                </span>
-              ),
-              name: "Cotiza",
-            },
-          ],
-        },
-      },
+      // {
+      //   name: "item0",
+      //   className: "header3-item",
+      //   children: {
+      //     href: "/cotiza",
+      //     children: [
+      //       {
+      //         children: (
+      //           <span>
+      //             <p>Cotiza</p>
+      //           </span>
+      //         ),
+      //         name: "Cotiza",
+      //       },
+      //     ],
+      //   },
+      // },
       // {
       //   name: "item1",
       //   className: "header3-item",
@@ -952,23 +952,23 @@ export const Footer10DataSource = {
         },
       },
 
+      // {
+      //   name: "block1",
+      //   xs: 24,
+      //   md: 8,
+      //   className: "block",
+      //   title: { children: "Cotiza" },
+      //   childWrapper: {
+      //     children: [
+      //       { href: "/cotiza", name: "link0", children: "Cotizadora" },
+      //       { href: "#", name: "link1", children: "" },
+      //     ],
+      //   },
+      // },
       {
         name: "block1",
         xs: 24,
-        md: 8,
-        className: "block",
-        title: { children: "Cotiza" },
-        childWrapper: {
-          children: [
-            { href: "/cotiza", name: "link0", children: "Cotizadora" },
-            { href: "#", name: "link1", children: "" },
-          ],
-        },
-      },
-      {
-        name: "block2",
-        xs: 24,
-        md: 8,
+        md: 16,
         className: "block",
         title: {
           children: (

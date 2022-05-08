@@ -2,13 +2,12 @@
 /* eslint arrow-parens: 0 */
 import React from "react";
 import { enquireScreen } from "enquire-js";
-import { FloatingWhatsApp } from "react-floating-whatsapp-button";
+
 import "react-floating-whatsapp-button/dist/index.css";
 
 import Nav3 from "../Home/Nav3";
 import "../Home/less/antMotionStyle.less";
-import CotizaBanner from "../CotizaBanner";
-import FormContact from "../FormContact";
+
 import { Nav30DataSource } from "../Home/data.source";
 import Banner2 from "../Home/Banner2";
 import { Banner30DataSource } from "../Home/data.source";
