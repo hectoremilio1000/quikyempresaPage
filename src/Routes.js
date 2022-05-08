@@ -1,5 +1,6 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+import NotFound from "./components/NotFound";
 import Home from "./Home";
 import Conocenos from "./pages/Conocenos";
 import Contacto from "./pages/Contacto";
@@ -15,6 +16,7 @@ function Routes() {
         <Route path="/cotiza" component={Cotiza} />
         <Route path="/hacemos" component={Hacemos} />
         <Route path="/conocenos" component={Conocenos} />
+        <Route component={NotFound} />
       </Switch>
     </>
   );

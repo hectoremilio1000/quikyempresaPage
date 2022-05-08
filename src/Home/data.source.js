@@ -204,6 +204,30 @@ export const Banner10DataSource = {
     ],
   },
 };
+
+export const Banner30DataSource = {
+  wrapper: { className: "banner1" },
+  BannerAnim: {
+    children: [
+      {
+        name: "elem0",
+        BannerElement: { className: "banner-user-elem" },
+        textWrapper: { className: "banner1-text-wrapper" },
+        bg: { className: "bg bg2" },
+        title: {
+          className: "banner1-title",
+          children:
+            "https://imagenesrutalab.s3.amazonaws.com/quikyempresa/logoQuikyempresablanco.png",
+        },
+        content: {
+          className: "banner1-content",
+          children: "Página no econtrada",
+        },
+        button: { className: "banner1-button", children: "Inicio" },
+      },
+    ],
+  },
+};
 export const Content00DataSource = {
   wrapper: { className: "home-page-wrapper content0-wrapper" },
   page: { className: "home-page content0" },
@@ -910,7 +934,7 @@ export const Footer10DataSource = {
       {
         name: "block0",
         xs: 24,
-        md: 6,
+        md: 8,
         className: "block",
         title: {
           className: "logo",
@@ -927,76 +951,11 @@ export const Footer10DataSource = {
           ],
         },
       },
+
       {
         name: "block1",
         xs: 24,
-        md: 6,
-        className: "block",
-        title: {
-          children: (
-            <span>
-              <p>Menú</p>
-            </span>
-          ),
-        },
-        childWrapper: {
-          children: [
-            {
-              name: "link0",
-              href: "/conocenos",
-              children: (
-                <span>
-                  <span>
-                    <span>
-                      <p>Conócenos</p>
-                    </span>
-                  </span>
-                </span>
-              ),
-            },
-            {
-              name: "link1",
-              href: "/hacemos",
-              children: (
-                <span>
-                  <p>¿Cómo lo hacemos?</p>
-                </span>
-              ),
-            },
-            {
-              name: "link2",
-              href: "/contacto",
-              children: (
-                <span>
-                  <p>Contacto</p>
-                </span>
-              ),
-            },
-            {
-              name: "link3",
-              href: "#",
-              children: (
-                <span>
-                  <p>{""}</p>
-                </span>
-              ),
-            },
-            {
-              name: "link4",
-              href: "#",
-              children: (
-                <span>
-                  <p>{""}</p>
-                </span>
-              ),
-            },
-          ],
-        },
-      },
-      {
-        name: "block2",
-        xs: 24,
-        md: 6,
+        md: 8,
         className: "block",
         title: { children: "Cotiza" },
         childWrapper: {
@@ -1007,9 +966,9 @@ export const Footer10DataSource = {
         },
       },
       {
-        name: "block3",
+        name: "block2",
         xs: 24,
-        md: 6,
+        md: 8,
         className: "block",
         title: {
           children: (

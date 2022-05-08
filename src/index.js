@@ -5,6 +5,10 @@ import * as serviceWorker from "./serviceWorker";
 import { BrowserRouter } from "react-router-dom";
 import Routes from "./Routes";
 
+import awsconfig from "./aws-exports";
+import { Amplify } from "aws-amplify";
+Amplify.configure(awsconfig);
+
 ReactDOM.render(
   <BrowserRouter>
     <Routes />

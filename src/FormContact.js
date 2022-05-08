@@ -2,10 +2,23 @@ import React, { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Form, Input, Button, message } from "antd";
 
+import { DataStore } from "aws-amplify";
+
+import { Contacto } from "./models";
+
 function FormContact() {
-  const onFinish = values => {
-    message.info("Hemos enviado tu información");
-    console.log("Success:", values);
+  // const [valores, setValores] = useState(null);
+
+  const onFinish = async values => {
+    await DataStore.save(
+      new Contacto({
+        nombre: values.nombreCompleto,
+        email: values.email,
+        whatsapp: values.whatsapp,
+        mensaje: values.mensaje,
+      })
+    );
+    console.log("Post saved successfully!", values);
   };
 
   const onFinishFailed = errorInfo => {

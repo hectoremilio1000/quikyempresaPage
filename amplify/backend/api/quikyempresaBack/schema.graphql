@@ -1,0 +1,7 @@
+type Contacto @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  nombre: String
+  email: String
+  whatsapp: String
+  mensaje: String
+}

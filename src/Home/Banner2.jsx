@@ -9,7 +9,7 @@ import "rc-banner-anim/assets/index.css";
 import { Link } from "react-router-dom";
 
 const { BgElement } = Element;
-class Banner extends React.PureComponent {
+class Banner2 extends React.PureComponent {
   render() {
     const { ...props } = this.props;
     const { dataSource } = props;
@@ -40,7 +40,7 @@ class Banner extends React.PureComponent {
             <div key="content" {...content} style={{ paddingTop: 5 }}>
               {content.children}
             </div>
-            <Link to="/cotiza">
+            <Link to="/">
               <Button ghost key="button" {...button}>
                 {button.children}
               </Button>
@@ -81,4 +81,4 @@ class Banner extends React.PureComponent {
   }
 }
 
-export default Banner;
+export default Banner2;

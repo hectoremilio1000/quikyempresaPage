@@ -6,6 +6,7 @@
   "dependencies": {
     "@ant-design/compatible": "^1.0.2",
     "antd": "^4.0.1",
+    "aws-amplify": "^4.3.21",
     "bootstrap": "4.6",
     "enquire-js": "^0.2.1",
     "rc-banner-anim": "^2.2.2",

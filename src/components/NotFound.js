@@ -1,17 +1,26 @@
+/* eslint no-undef: 0 */
+/* eslint arrow-parens: 0 */
 import React from "react";
 import { enquireScreen } from "enquire-js";
+import { FloatingWhatsApp } from "react-floating-whatsapp-button";
+import "react-floating-whatsapp-button/dist/index.css";
 
 import Nav3 from "../Home/Nav3";
+import "../Home/less/antMotionStyle.less";
+import CotizaBanner from "../CotizaBanner";
+import FormContact from "../FormContact";
 import { Nav30DataSource } from "../Home/data.source";
-
-const { location } = window;
+import Banner2 from "../Home/Banner2";
+import { Banner30DataSource } from "../Home/data.source";
 
 let isMobile;
 enquireScreen(b => {
   isMobile = b;
 });
 
-export default class Conocenos extends React.Component {
+const { location } = window;
+
+export default class NotFound extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -46,7 +55,14 @@ export default class Conocenos extends React.Component {
         dataSource={Nav30DataSource}
         isMobile={this.state.isMobile}
       />,
+      <Banner2
+        id="Banner1_0"
+        key="Banner1_0"
+        dataSource={Banner30DataSource}
+        isMobile={this.state.isMobile}
+      />,
     ];
+
     return (
       <div
         className="templates-wrapper"
