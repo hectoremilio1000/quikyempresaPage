@@ -7,7 +7,7 @@ import { DataStore } from "aws-amplify";
 import { Contacto } from "./models";
 
 function FormContact() {
-  // const [valores, setValores] = useState(null);
+  const [form] = Form.useForm();
 
   const onFinish = async values => {
     await DataStore.save(
@@ -18,7 +18,8 @@ function FormContact() {
         mensaje: values.mensaje,
       })
     );
-    console.log("Post saved successfully!", values);
+    message.info("Información enviada correctamente");
+    form.resetFields();
   };
 
   const onFinishFailed = errorInfo => {
@@ -34,6 +35,7 @@ function FormContact() {
           onFinish={onFinish}
           onFinishFailed={onFinishFailed}
           labelCol={{ span: 2, offset: 0 }}
+          form={form}
         >
           <Form.Item
             label="Nombre:"

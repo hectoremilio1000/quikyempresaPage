@@ -109,7 +109,7 @@ export default class Home extends React.Component {
       <FloatingWhatsApp
         id="whatsApp_0"
         key="whatsApp_0"
-        phone="+52 1 55 4924 2477"
+        phone="+5215521293811"
         popupMessage="Hola, ¿cómo podemos ayudarte?"
       />,
     ];
