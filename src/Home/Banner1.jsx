@@ -20,6 +20,7 @@ class Banner extends React.PureComponent {
       const elemClassName = elem.className;
       delete elem.className;
       const { bg, textWrapper, title, content, button } = item;
+
       return (
         <Element key={i.toString()} {...elem} prefixCls={elemClassName}>
           <BgElement key="bg" {...bg} />
@@ -43,7 +44,7 @@ class Banner extends React.PureComponent {
             <HashLink
               to="#formContact1"
               smooth
-              scroll={el => el.scrollIntoView({ block: "end" })}
+              scroll={el => el.scrollIntoView({ behavior: "smooth" })}
             >
               <Button ghost key="button" {...button}>
                 {button.children}

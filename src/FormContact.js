@@ -53,13 +53,14 @@ function FormContact() {
         <Form.Item label="Mensaje:" name="mensaje" wrapperCol={{ offset: 1 }}>
           <Input.TextArea autoSize="true" size="middle" />
         </Form.Item>
-        <div id="formContact1"></div>
+
         <Form.Item>
           <Button type="primary" htmlType="submit" size="middle" block="true">
             Enviar
           </Button>
         </Form.Item>
       </Form>
+      <div id="formContact1"></div>
     </section>
   );
 }
