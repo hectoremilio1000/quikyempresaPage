@@ -27,43 +27,39 @@ function FormContact() {
   };
 
   return (
-    <section className="jumbotron text-center" id="formContact1">
-      <div className="container">
-        <h1 className="descarga">Contáctanos para ayudarte con tu idea</h1>
-        <Form
-          layout="horizontal"
-          onFinish={onFinish}
-          onFinishFailed={onFinishFailed}
-          labelCol={{ span: 2, offset: 0 }}
-          form={form}
+    <section className="jumbotron text-center" id="formContact2">
+      <h1 className="descarga">Contáctanos para ayudarte con tu idea</h1>
+
+      <Form
+        layout="horizontal"
+        onFinish={onFinish}
+        onFinishFailed={onFinishFailed}
+        labelCol={{ span: 2, offset: 0 }}
+        form={form}
+      >
+        <Form.Item
+          label="Nombre:"
+          name="nombreCompleto"
+          wrapperCol={{ offset: 1 }}
         >
-          <Form.Item
-            label="Nombre:"
-            name="nombreCompleto"
-            wrapperCol={{ offset: 1 }}
-          >
-            <Input size="middle" />
-          </Form.Item>
-          <Form.Item label="Email:" name="email" wrapperCol={{ offset: 1 }}>
-            <Input size="middle" />
-          </Form.Item>
-          <Form.Item
-            label="Whatsapp:"
-            name="whatsapp"
-            wrapperCol={{ offset: 1 }}
-          >
-            <Input size="middle" />
-          </Form.Item>
-          <Form.Item label="Mensaje:" name="mensaje" wrapperCol={{ offset: 1 }}>
-            <Input.TextArea autoSize="true" size="middle" />
-          </Form.Item>
-          <Form.Item>
-            <Button type="primary" htmlType="submit" size="middle" block="true">
-              Enviar
-            </Button>
-          </Form.Item>
-        </Form>
-      </div>
+          <Input size="middle" />
+        </Form.Item>
+        <Form.Item label="Email:" name="email" wrapperCol={{ offset: 1 }}>
+          <Input size="middle" />
+        </Form.Item>
+        <Form.Item label="Whatsapp:" name="whatsapp" wrapperCol={{ offset: 1 }}>
+          <Input size="middle" />
+        </Form.Item>
+        <Form.Item label="Mensaje:" name="mensaje" wrapperCol={{ offset: 1 }}>
+          <Input.TextArea autoSize="true" size="middle" />
+        </Form.Item>
+        <div id="formContact1"></div>
+        <Form.Item>
+          <Button type="primary" htmlType="submit" size="middle" block="true">
+            Enviar
+          </Button>
+        </Form.Item>
+      </Form>
     </section>
   );
 }

@@ -40,7 +40,11 @@ class Banner extends React.PureComponent {
             <div key="content" {...content} style={{ paddingTop: 5 }}>
               {content.children}
             </div>
-            <HashLink to="#formContact1" smooth>
+            <HashLink
+              to="#formContact1"
+              smooth
+              scroll={el => el.scrollIntoView({ block: "end" })}
+            >
               <Button ghost key="button" {...button}>
                 {button.children}
               </Button>
