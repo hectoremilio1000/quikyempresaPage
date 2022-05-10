@@ -27,7 +27,7 @@ function FormContact() {
   };
 
   return (
-    <section className="jumbotron text-center">
+    <section className="jumbotron text-center" id="formContact1">
       <div className="container">
         <h1 className="descarga">Contáctanos para ayudarte con tu idea</h1>
         <Form

@@ -189,7 +189,7 @@ export const Banner10DataSource = {
         name: "elem2",
         BannerElement: { className: "banner-user-elem" },
         textWrapper: { className: "banner1-text-wrapper" },
-        bg: { className: "bg bg1" },
+        bg: { className: "bg bg2" },
         title: {
           className: "banner1-title",
           children:

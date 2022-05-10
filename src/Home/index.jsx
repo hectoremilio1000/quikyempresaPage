@@ -99,7 +99,7 @@ export default class Home extends React.Component {
         dataSource={Content30DataSource}
         isMobile={this.state.isMobile}
       />,
-      <FormContact id="FormContact0" key="FormContact0" />,
+      <FormContact id="FormContact" key="FormContact" />,
       <Footer1
         id="Footer1_0"
         key="Footer1_0"

@@ -6,7 +6,7 @@ import TweenOne, { TweenOneGroup } from "rc-tween-one";
 import BannerAnim, { Element } from "rc-banner-anim";
 import { isImg } from "./utils";
 import "rc-banner-anim/assets/index.css";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const { BgElement } = Element;
 class Banner extends React.PureComponent {
@@ -40,11 +40,11 @@ class Banner extends React.PureComponent {
             <div key="content" {...content} style={{ paddingTop: 5 }}>
               {content.children}
             </div>
-            <Link to="/cotiza">
+            <HashLink to="#formContact1" smooth>
               <Button ghost key="button" {...button}>
                 {button.children}
               </Button>
-            </Link>
+            </HashLink>
           </QueueAnim>
         </Element>
       );
@@ -74,7 +74,9 @@ class Banner extends React.PureComponent {
           style={{ bottom: 40 }}
           key="icon"
         >
-          <DownOutlined />
+          {/* <DownOutlined 
+            
+          /> */}
         </TweenOne>
       </div>
     );

@@ -1,7 +1,7 @@
 import { Button } from "antd";
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 function CotizaBanner() {
   return (
@@ -15,9 +15,9 @@ function CotizaBanner() {
           desarrollo
         </p>
         <div className="container d-flex justify-content-center col-lg-2 col-md-3 col-6">
-          <Link to="/cotiza">
+          <HashLink smooth to="#formContact1">
             <Button type="sucess">Cotiza tu APP</Button>
-          </Link>
+          </HashLink>
         </div>
       </div>
     </section>
