@@ -19,7 +19,7 @@ class Footer extends React.Component {
           <h2 {...title}>
             {typeof title.children === "string" &&
             title.children.match(isImg) ? (
-              <img src={title.children} width="150px" height="75px" alt="img" />
+              <img src={title.children} width="100%" alt="img" />
             ) : (
               title.children
             )}
