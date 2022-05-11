@@ -47,9 +47,11 @@ function FormContact() {
         <Form.Item label="Email:" name="email" wrapperCol={{ offset: 1 }}>
           <Input size="middle" />
         </Form.Item>
+        <div id="formContact1"></div>
         <Form.Item label="Whatsapp:" name="whatsapp" wrapperCol={{ offset: 1 }}>
           <Input size="middle" />
         </Form.Item>
+
         <Form.Item label="Mensaje:" name="mensaje" wrapperCol={{ offset: 1 }}>
           <Input.TextArea autoSize="true" size="middle" />
         </Form.Item>
@@ -60,7 +62,6 @@ function FormContact() {
           </Button>
         </Form.Item>
       </Form>
-      <div id="formContact1"></div>
     </section>
   );
 }
