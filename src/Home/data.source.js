@@ -816,7 +816,7 @@ export const Feature50DataSource = {
         name: "title",
         children: (
           <span>
-            <p>Algunos productos desarrollados</p>
+            <p>Grandes productos desarrollados</p>
           </span>
         ),
         className: "title-h1",
@@ -998,12 +998,15 @@ export const Footer10DataSource = {
   copyright: {
     className: "copyright",
     children: (
-      <span>
-        ©2018 Quiky empresa Derechos Reservados email:
-        <a href="mailto:administracion@quikyempresa.com?Subject=Quiero%20cotizar%20mi%20APP%20">
-          administracion@quikyempresa.com
-        </a>
-      </span>
+    
+        <span>
+          ©2018 Quiky empresa Derechos Reservados email:
+          <a href="mailto:support@quikyempresa.com?Subject=Quiero%20cotizar%20mi%20APP%20">
+            support@quikyempresa.com
+          </a>
+        </span>
+       
+   
     ),
   },
 };

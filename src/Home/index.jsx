@@ -25,6 +25,18 @@ import {
 import "./less/antMotionStyle.less";
 import CotizaBanner from "../CotizaBanner";
 import FormContact from "../FormContact";
+import { Image } from "antd";
+
+import img1 from '../components/data/img/IMG_2511.jpg';
+import img2 from "../components/data/img/IMG_2514.jpg";
+import img3 from "../components/data/img/IMG_2516.jpg";
+import img4 from "../components/data/img/IMG_2518.jpg";
+import img5 from "../components/data/img/IMG_2521.jpg";
+import img6 from "../components/data/img/IMG_2524.jpg";
+import img7 from "../components/data/img/IMG_2525.jpg";
+import img8 from "../components/data/img/IMG_2529.jpg";
+import img9 from "../components/data/img/IMG_2530.jpg";
+import img10 from "../components/data/img/IMG_2532.jpg";
 
 let isMobile;
 enquireScreen(b => {
@@ -100,6 +112,27 @@ export default class Home extends React.Component {
         isMobile={this.state.isMobile}
       />,
       <FormContact id="FormContact" key="FormContact" />,
+      <div style={{ marginBottom: 40 }}>
+        <p style={{ textAlign: "center", margin: 5, fontSize: 25 }}>Oficinas</p>
+        <p style={{ textAlign: "center", margin: 5 }}>
+          Ubicación: Avenida Baja California 245 piso 5 interior 504, Hipodromo
+          Condesa, Cuauhtémoc, Ciudad de México, México C.P. 06170
+        </p>
+        <div style={{ margin: 20, display:"flex", justifyContent:"space-around", flexWrap:"wrap" }}>
+          <Image.PreviewGroup>
+            <Image width={150} height={150} src={img1} />
+            <Image width={150} height={150} src={img2} />
+            <Image width={150} height={150} src={img3} />
+            <Image width={150} height={150} src={img4} />
+            <Image width={150} height={150} src={img5} />
+            <Image width={150} height={150} src={img6} />
+            <Image width={150} height={150} src={img7} />
+            <Image width={150} height={150} src={img8} />
+            <Image width={150} height={150} src={img9} />
+            <Image width={150} height={150} src={img10} />
+          </Image.PreviewGroup>
+        </div>
+      </div>,
       <Footer1
         id="Footer1_0"
         key="Footer1_0"
@@ -109,7 +142,7 @@ export default class Home extends React.Component {
       <FloatingWhatsApp
         id="whatsApp_0"
         key="whatsApp_0"
-        phone="+5215521293811"
+        phone="+5215633485223"
         popupMessage="Hola, ¿cómo podemos ayudarte?"
       />,
     ];

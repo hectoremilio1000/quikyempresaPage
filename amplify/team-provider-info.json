@@ -10,6 +10,11 @@
       "StackName": "amplify-quikyempresaback-staging-01915",
       "StackId": "arn:aws:cloudformation:us-east-1:900765165512:stack/amplify-quikyempresaback-staging-01915/7eabea10-ce64-11ec-b44c-0e2666bde1a9",
       "AmplifyAppId": "d13t3yvpc453oo"
+    },
+    "categories": {
+      "auth": {
+        "quikyempresaBack": {}
+      }
     }
   }
 }
